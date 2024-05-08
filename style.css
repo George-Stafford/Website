@@ -295,12 +295,20 @@ button {
 
 .section{
   background-color: #454f8a;
-  border-radius:10px;
+  border-radius:20px;
   text-align: center;
   max-width: fit-content;
   margin-inline: auto;
   margin-left: auto;
-  margin-top: 50px;
-  height: 100px;
+  margin-top: 100px;
+  height: 130px;
   width: 1000px;
+}
+.section a {
+  color:black;
+}
+.styled-link {
+  font-size: 1.17em; /* Equivalent to h3 font size */
+  font-weight: bold; /* Match h3 font weight if necessary */
+  text-decoration: none; /* Remove default underline */
 }
